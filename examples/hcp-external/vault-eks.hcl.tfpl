@@ -1,0 +1,17 @@
+global:
+  enabled: true
+  tlsDisable: true
+  externalVaultAddr: ${VAULT_ADDR}
+
+injector:
+  enabled: true
+  externalVaultAddr: ${VAULT_ADDR}
+  authPath: auth/kubernetes
+  logLevel: "trace"
+  image:
+    repository: "hashicorp/vault-k8s"
+    tag: "1.0.1"
+    pullPolicy: IfNotPresent
+  agentImage:
+    repository: "hashicorp/vault"
+    tag: "1.12.0"

@@ -45,6 +45,6 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_vault_k8s_namespace"></a> [vault\_k8s\_namespace](#output\_vault\_k8s\_namespace) | Namespace that was created for Vault to use |
-| <a name="output_vault_svc_account_name"></a> [vault\_svc\_account\_name](#output\_vault\_svc\_account\_name) | n/a |
+| <a name="output_vault_k8s_namespace"></a> [vault\_k8s\_namespace](#output\_vault\_k8s\_namespace) | Namespace that was created for Vault to use. |
+| <a name="output_vault_svc_account_name"></a> [vault\_svc\_account\_name](#output\_vault\_svc\_account\_name) | Service account that was created via Helm for Vault to use. |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
